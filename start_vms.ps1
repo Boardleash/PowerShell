@@ -4,7 +4,13 @@
 #### DATE: Monday, April 21 2025
 ###################################
 
-# This is a Powershell script that will start VMs managed by VboxManage
+# This is a Powershell script that will shutdown VMs hosted by Oracle VirtualBox
+# This script assumes the intent for a "headless" start (don't open/show a new window \
+# for the VM being powered on)
+# Uncomment whichever method is preferred and substitute 'vm1', 'vm2', etc. with \
+# applicable VM names (host/domain names)
+# This has been tested on Powershell version 5.1.26100.3624 \
+# and Oracle VirtualBox version 7.1.4 r165100 (Qt6.5.3)
 
 # Variables and Formatting
 set-alias -name vbox -value 'c:\program files\oracle\virtualbox\vboxmanage.exe'

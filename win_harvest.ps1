@@ -6,13 +6,9 @@
 # AUTHOR: Boardleash (Derek)
 # DATE: Saturday, December 7 2024
 #
-# A PowerShell script that collects various information on a host.
-# This script will create a directory called "win_harvest" in the user's "Documents" directory.
-# The data collected in this script is output to three files in the "win_harvest" directory.
-# The "general_intel" function of this script runs an option that requires escalated privileges.
-# It is recommended to run this script with elevated privileges, however, if you choose not to,
-# you will not be able to retrieve the users list and there will be an appropriate error to tell you
-# you need to run as administrator. 
+# PowerShell script to collect various information on a host.
+# Recommend to run this script wiht elevated privileges.  If not ran with elevated privileges \
+# users list will not be able to be retrieved.
 
 ################################
 ### FORMATTING AND VARIABLES ###
